@@ -38,6 +38,7 @@ public class FlowPurchaseTest extends TestBase {
         System.out.println("User login Successfully");
         System.out.println("Message :" + accountPage.getSuccessMsg());
         Assert.assertTrue(accountPage.isSuccessMsgDisplay());
+		System.out.println("welcome login Successfully");
 
     }
 
@@ -75,6 +76,7 @@ public class FlowPurchaseTest extends TestBase {
         System.out.println("User Sign Out Successfully");
         System.out.println("Message :" + homePage.getMsgText());
 		System.out.println("User have Sign Out Successfully");
+		System.out.println("Welcome ");
     }
 
 }

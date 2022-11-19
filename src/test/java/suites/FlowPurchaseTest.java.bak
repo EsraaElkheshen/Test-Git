@@ -74,6 +74,7 @@ public class FlowPurchaseTest extends TestBase {
         Assert.assertTrue(homePage.isSignInDisplay());
         System.out.println("User Sign Out Successfully");
         System.out.println("Message :" + homePage.getMsgText());
+		System.out.println("User have Sign Out Successfully");
     }
 
 }
